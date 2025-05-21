@@ -1,0 +1,85 @@
+.SideBarContainer {
+  background-color: #1e2233;
+  border-radius: 30px;
+  border: 1px solid #313b54;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.DecisionPicked {
+  background-color: #252a3d;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.MarkOfDecision {
+  border: 1px solid #858585;
+  padding: 5px;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  width: 35px;
+}
+
+hr {
+  margin: 0px 15px;
+  border: 0.5px solid #4f4f4f;
+}
+
+.text-lg {
+  color: #e5e7eb;
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 0;
+}
+
+.titleSideBar {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  place-items: center;
+  gap: 25px;
+}
+
+.titleSideBarLeft {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  place-items: center;
+  width: 260px;
+}
+
+.NonePicked {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 35px;
+}
+
+.TitleOfUl {
+  color: #3b82f6;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+span {
+  margin: 0;
+}
+
+.UlOfSideBar {
+  list-style-type: none;
+  color: #e5e7eb;
+  margin: 0px;
+}
+
+.liSideBar {
+  margin: 10px 0px;
+}

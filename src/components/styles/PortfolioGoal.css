@@ -1,0 +1,101 @@
+.progress-container {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px;
+  overflow: visible;
+  margin: 15px 0;
+}
+
+.ProgressTitleparagraf {
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(179, 177, 177);
+}
+
+.ProcesBarProgres {
+  height: 100%;
+  min-width: 0;
+}
+
+.PortfolioGoalsCenter {
+  display: flex;
+  flex-direction: column;
+  place-items: left;
+  background-color: #1e2233;
+  border-radius: 30px;
+  border: 2px solid #2a2d37;
+  padding: 15px;
+  width: 35%;
+}
+
+.PortfolioGoalsTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.progress-segment {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.simple-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background: #ffffff;
+  color: #000000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 8px;
+  position: absolute;
+  z-index: 10;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.2s;
+  font-size: 12px;
+  pointer-events: auto;
+}
+
+.progress-segment:hover .simple-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.three-progress .progress-container {
+  width: 75% !important; /* тільки для третьої групи */
+  background-color: #313853;
+  border-radius: 0px 20px 20px 0px !important ;
+  padding-right: 60px !important;
+  margin: 15px 0px 15px 0px !important;
+}
+.three-progress .progress-segment {
+  /* свої стилі для сегментів третьої групи */
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0px 20px 20px 0px !important;
+  background: linear-gradient(
+    270deg,
+    rgba(59, 130, 246, 1) 0%,
+    rgba(59, 130, 246, 1) 50%,
+    rgba(49, 56, 83, 1) 100%
+  );
+  /* ... */
+}
+
+.three-progress {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 10px;
+  place-items: center;
+  font-weight: bold;
+  color: #fff;
+}

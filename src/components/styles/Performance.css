@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+.blueLevelIndicatorContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e2233;
+  border: 1px solid #313b54;
+  border-radius: 15px;
+  width: 325px;
+  height: auto; /* або height: 250px; якщо потрібна фіксована висота */
+  padding: 20px;
+}
+
+.iconsOfPerformanceContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.iconIndicator {
+  background-color: #1e2233;
+  border: 1px solid #313b54;
+  border-radius: 15px;
+  height: auto;
+  padding: 10px;
+  gap: 5px;
+  height: fit-content;
+}
+
+.indicators {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  place-items: center;
+  color: #e5e7eb;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  gap: 10px;
+}
+
+.HeaderPerformance {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Inconsolata", monospace;
+}
+
+.HWinnability,
+.HLossRation1,
+.HIndicator {
+  color: #e5e7eb;
+  font-size: 22px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.LinkToMore {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MoreLinkHeader {
+  display: flex;
+  flex-direction: row;
+
+  color: #1e40af;
+  font-size: 12px;
+}
+
+.three-progressPerformance1 .progress-container {
+  width: 330px !important; /* тільки для третьої групи */
+  background-color: #313853;
+  border-radius: 0px 20px 20px 0px !important ;
+  padding-right: 60px !important;
+  margin: 0px;
+}
+
+.three-progressPerformance2 .progress-container {
+  width: 330px !important; /* тільки для третьої групи */
+  background-color: #313853;
+  border-radius: 0px 20px 20px 0px !important ;
+  padding-right: 100px !important;
+  margin: 0px;
+}
+
+.three-progressPerformance3 .progress-container {
+  width: 330px !important; /* тільки для третьої групи */
+  background-color: #313853;
+  border-radius: 0px 20px 20px 0px !important ;
+  padding-right: 140px !important;
+  margin: 0px;
+}
+
+.three-progressPerformance1 .progress-segment {
+  /* свої стилі для сегментів третьої групи */
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0px 20px 20px 0px !important;
+  background: linear-gradient(
+    270deg,
+    rgba(59, 130, 246, 1) 0%,
+    rgba(59, 130, 246, 1) 50%,
+    rgba(49, 56, 83, 1) 100%
+  );
+  /* ... */
+}
+
+.three-progressPerformance2 .progress-segment {
+  /* свої стилі для сегментів третьої групи */
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0px 20px 20px 0px !important;
+  background: linear-gradient(
+    270deg,
+    rgba(59, 130, 246, 1) 0%,
+    rgba(59, 130, 246, 1) 50%,
+    rgba(49, 56, 83, 1) 100%
+  );
+  /* ... */
+}
+
+.three-progressPerformance3 .progress-segment {
+  /* свої стилі для сегментів третьої групи */
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0px 20px 20px 0px !important;
+  background: linear-gradient(
+    270deg,
+    rgba(59, 130, 246, 1) 0%,
+    rgba(59, 130, 246, 1) 50%,
+    rgba(49, 56, 83, 1) 100%
+  );
+  /* ... */
+}
+
+.three-progressPerformance {
+  display: flex !important;
+  justify-content: left !important;
+  gap: 10px;
+  margin: 0px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.textPerformanceparagraf {
+  color: white;
+  font-size: 45px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.textPerformanceGray {
+  color: gray;
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 10px 0px 0px 0px;
+}
+
+.textPerformanceProcent {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  gap: 5px;
+}
+
+.textPerformance {
+  flex: 1;
+  display: flex;
+  align-items: center; /* якщо потрібно вирівнювання по центру */
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "progressInterest": "45%",
+    "upText": "-6,9%",
+    "backgroundColor": "#3BB979",
+    "ProgressTitle": "PORTFOLIO LOSS RATIO TARGET",
+    "tooltipText": "-6,9%(GOOD)"
+  },
+  {
+    "id": 2,
+    "progressInterest": "25%",
+    "upText": "-2,7%",
+    "backgroundColor": "#FDD261",
+    "ProgressTitle": "RENEWAL RETENTION",
+    "tooltipText": "-2,7% "
+  },
+  {
+    "id": 3,
+    "progressInterest": "50%",
+    "upText": "-3,9%",
+    "backgroundColor": "#CC0101",
+
+    "tooltipText": "-3,9% "
+  },
+  {
+    "id": 4,
+    "progressInterest": "25%",
+    "upText": "-2,5%",
+    "backgroundColor": "#FDD261",
+    "ProgressTitle": "RENEWAL RETENTION",
+    "tooltipText": "-2,5% "
+  },
+  {
+    "id": 5,
+    "progressInterest": "10%",
+    "upText": "-1,2%",
+    "backgroundColor": "#CC0101",
+    "tooltipText": "-1,2%(BAD)"
+  },
+  {
+    "id": 6,
+    "progressInterest": "15%",
+    "upText": "-0,5%",
+    "backgroundColor": "#3BB979",
+    "tooltipText": "-0,5% "
+  },
+  {
+    "id": 7,
+    "progressInterest": "20%",
+    "ProgressTitle": "NEW BUSINESS TARGET $8.1M$",
+    "upText": "$8.1M",
+    "tooltipText": "67% ",
+    "textToRight": "$12M"
+  },
+  {
+    "id": 8,
+    "progressInterest": "20%",
+    "ProgressTitle": "ANNUAL OWP TARGET",
+    "upText": "$28.4M",
+    "tooltipText": "68% ",
+    "textToRight": "$42M"
+  }
+]

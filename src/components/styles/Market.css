@@ -1,0 +1,32 @@
+.MarketContainer {
+  background-color: #1e2233;
+  border: 1px solid #313b54;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.MarketTitle {
+  font-size: 20px;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
+.markMarketText {
+  height: 23px;
+  width: 28px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.textMarketStyle {
+  color: #e5e7eb;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.textSegment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

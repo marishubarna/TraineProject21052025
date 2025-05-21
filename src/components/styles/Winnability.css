@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+.accountBoard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dashboard {
+  font-family: sans-serif;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.displayRowOfScore {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.DataScore {
+  font-size: 65px;
+  font-weight: bolder;
+}
+
+.blueLevelIndicator {
+  background-color: #1e40af;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+}
+
+.BlueContainer {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  gap: 5px;
+  border: 0.5px solid #3361f7;
+  padding: 5px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.blueLevelIndicators {
+  display: flex;
+  gap: 3px;
+  margin: 0;
+}
+
+.score-bar {
+  background-color: #2e3242;
+  border-radius: 0 10px 10px 0;
+  height: 19px;
+  width: 60%;
+  overflow: hidden;
+  display: flex;
+}
+
+.score-fill {
+  height: 100%;
+  background: linear-gradient(
+    270deg,
+    rgba(59, 130, 246, 1) 0%,
+    rgba(59, 130, 246, 1) 50%,
+    rgba(49, 56, 83, 1) 100%
+  );
+  border-radius: 0 10px 10px 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.HOverallScore {
+  color: #c7c5c5;
+  font-size: 22px;
+  font-weight: lighter;
+  font-family: "Inconsolata", monospace;
+  margin: 0;
+}
+
+.HistoricalDisplay {
+  background-color: #252a3d;
+  padding: 10px;
+  border-radius: 15px;
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.score-cardH {
+  font-size: 30px;
+  color: #e5e7eb;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.score-card {
+  background-color: #252a3d;
+  padding: 15px;
+  border-radius: 15px;
+  width: fit-content;
+}
+
+.winnability-section {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.rating {
+  font-family: "Inconsolata", monospace;
+  font-size: 15px;
+  color: #1e40af;
+}
+
+/*Winnability Card Css*/
+.winnability-card {
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  width: 100%;
+}
+
+.winnability-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.circle-number {
+  background: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar-label {
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.progress-bar {
+  height: 10px;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+.bar-value {
+  min-width: 40px;
+  text-align: right;
+  font-size: 0.85rem;
+  font-weight: 500;
+}

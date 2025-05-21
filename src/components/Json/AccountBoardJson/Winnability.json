@@ -1,0 +1,80 @@
+{
+  "score": 82,
+  "marketAvg": 63,
+  "topCompetitor": 88,
+  "trend": [60, 65, 70, 80, 82],
+  "dataHistorical": [
+    { "name": "Jan", "value": 30 },
+    { "name": "Feb", "value": 45 },
+    { "name": "Mar", "value": 35 },
+    { "name": "Apr", "value": 55 },
+
+    { "name": "Now", "value": 58 }
+  ],
+  "DataPosition": [
+    {
+      "label": "Your score",
+      "value": 82,
+      "color": "bg-gradient-to-r from-[#3c88ff] to-[#65c6ff] text-white",
+      "textColor": "text-white",
+      "fontWeight": "font-semibold"
+    },
+    {
+      "label": "Market Avg",
+      "value": 68,
+      "color": "bg-gradient-to-r from-[#3c88ff] to-[#65c6ff]",
+      "textColor": "text-gray-400",
+      "fontWeight": "font-normal"
+    },
+    {
+      "label": "Top competitor",
+      "value": 88,
+      "color": "bg-gradient-to-r from-[#3c88ff] to-[#65c6ff]",
+      "textColor": "text-gray-400",
+      "fontWeight": "font-normal"
+    }
+  ],
+
+  "Winnincreasing": [
+    {
+      "label": "Brokers relationship",
+      "indecatorsLevels": 100,
+      "value": "28"
+    },
+    { "label": "Loss history", "indecatorsLevels": 80, "value": 22 },
+    { "label": "Industry growth", "indecatorsLevels": 60, "value": 16 },
+    { "label": "Multiline opportunity", "indecatorsLevels": 45, "value": 11 }
+  ],
+
+  "Winndecreasing": [
+    { "label": "Premium pricing", "indecatorsLevels": 100, "value": -24 },
+    { "label": "Total exposure", "indecatorsLevels": 80, "value": -18 },
+    { "label": "Loss ratio trend", "indecatorsLevels": 60, "value": -13 },
+    { "label": "Market competition", "indecatorsLevels": 45, "value": -5 }
+  ],
+
+  "increasing": [
+    { "title": "Brokers relationship", "value": 28 },
+    { "title": "Loss history", "value": 22 },
+    { "title": "Industry growth", "value": 16 },
+    { "title": "Multiline opportunity", "value": 11 }
+  ],
+  "decreasing": [
+    { "title": "Premium pricing", "value": -24 },
+    { "title": "Total exposure", "value": -18 },
+    { "title": "Loss ratio trend", "value": -13 },
+    { "title": "Market competition", "value": -5 }
+  ],
+  "recommendations": [
+    {
+      "text": "Offer 5% premium discount in exchange for 3-year commitment",
+      "details": "Historical win rate increases 24% with multi-year commitments...",
+      "button": "Apply"
+    },
+    {
+      "text": "Propose risk control services for cargo handling procedures",
+      "details": "Can potentially reduce loss ratio by 15–20%...",
+      "button": "Apply"
+    }
+  ]
+}

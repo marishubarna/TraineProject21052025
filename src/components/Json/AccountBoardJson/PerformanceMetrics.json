@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1",
+    "titleOfIcon": "Winnability",
+    "LevelOfWinningWhite": "Very Strong"
+  },
+  {
+    "id": "2",
+    "titleOfIcon": "Loss Ratio",
+    "LevelOfWinningWhite": "25%",
+    "LevelOfWinningGray": "vs 42% target"
+  }
+]

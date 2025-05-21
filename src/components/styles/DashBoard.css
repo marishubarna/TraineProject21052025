@@ -1,0 +1,290 @@
+.AvatarItem {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #3c55b7a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: white;
+}
+
+.AvatarItemContainer {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+  align-items: center;
+}
+
+.BurgerMenuButton {
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.ComponentsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+.DisplayBurgerMenu {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.DashBoardTab1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.LoginStyle {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: left;
+  margin: 0;
+  border-bottom: 1px solid #fff;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px); /* зміщення вниз */
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* .fade-in-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+.fade-in-dark-zoom {
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInDarkZoom 0.8s ease-out forwards;
+}
+
+@keyframes fadeInDarkZoom {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.editMenu {
+  background: #fff;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.editAndDeleteButtonStyle {
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #111622;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  border-radius: none;
+}
+
+.editAndDeleteButtonStyle:hover {
+  background-color: salmon;
+  color: white;
+}
+
+.editAndDeleteButtonStyle:focus {
+  background-color: sandybrown;
+  color: white;
+}
+
+.LayoutBody {
+  background-color: transparent;
+
+  padding: 30px;
+  margin: 0;
+}
+
+.LayoutBodyRow {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin: 0;
+  height: auto;
+}
+
+.StatusMarkApproved {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(230, 0, 255);
+}
+
+.StatusMarkBlocked {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.StatusMarkContainer {
+  display: flex;
+  align-items: center; /* Вирівнює кружок і текст по вертикалі */
+  gap: 5px; /* Відступ між кружком і текстом */
+}
+
+.StatusMarkCompleted {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.StatusMarkInProgress {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 251, 0);
+}
+
+.StatusMarkPending {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 255);
+}
+
+.StatusMarkInReview {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 165, 0);
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.tableRowDane {
+  background-color: none;
+  color: white; /* Фон для рядків */
+}
+
+.tableRowDane:nth-child(even) {
+  background-color: #2b2d3c; /* Фон для парних рядків */
+}
+
+.tableRowDane:nth-child(odd) {
+  background-color: none;
+}
+
+.tableRowDane:hover {
+  background-color: #afc8ff;
+  color: black; /* Фон при наведенні */
+}
+
+.tableHeaderDane {
+  background-color: #2b2d3c; /* Фон для заголовків */
+  color: white; /* Колір тексту заголовків */
+}
+
+.TabTitle {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #0c0f17;
+  border-radius: 30px;
+  margin: 6px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid #2a2a3e;
+}
+.tab:hover {
+  background-color: #243dae;
+}
+.tab[aria-selected="true"] {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  height: 50px;
+  word-wrap: break-word;
+}
+
+.textLogin {
+  display: flex;
+  justify-content: left;
+  place-items: center;
+  gap: 15px;
+}
+
+.QuickActionAndMarketColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.WorkQueery {
+  height: auto;
+}
+
+.WorkQuerryContent {
+  background-color: #1e2233;
+  border-radius: 30px;
+  border: 2px solid #262a39;
+  padding: 20px;
+}

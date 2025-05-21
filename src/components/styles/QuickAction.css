@@ -1,0 +1,49 @@
+.quickActionButton {
+  background: #3b82f6;
+  padding: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 258px;
+  height: 50px;
+}
+
+.quickActionButton:hover {
+  background: #0a63f2;
+  padding: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 258px;
+  height: 50px;
+}
+
+.quickActionButton:focus {
+  background: #003790;
+  padding: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 258px;
+  height: 50px;
+}
+
+.QuickActionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1e2233;
+  border: 1px solid #313b54;
+  border-radius: 30px;
+  padding: 10px;
+  height: 45%;
+}
+
+.QuickActionsContainer {
+  color: #e5e7eb;
+  font-size: 10px;
+  font-weight: bold;
+}

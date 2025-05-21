@@ -1,0 +1,163 @@
+.AccountLineDisplay {
+  display: flex;
+  flex-direction: column;
+}
+
+.AccountLineStyleTitle {
+  font-size: 13px;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.AccountLineStyleparagraf {
+  font-size: 11px;
+  color: #94a3b8;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.appetiteDisplay {
+  background-color: #1e40afd2;
+  padding: 5px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+th {
+  height: auto;
+
+  text-align: center;
+}
+
+td {
+  height: auto;
+  text-align: center;
+}
+
+.MyAccountTable th {
+  color: #94a3b8;
+  font-size: 12px;
+  padding: 0;
+}
+
+.accountTitle {
+  color: #e5e7eb;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.LineStyle {
+  width: 20px;
+}
+
+.LossRationDisplay {
+  padding: 5px;
+  border-radius: 40%;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.LossRationContainer {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.MyAccountContainer {
+  background: #1e2233;
+  border: 1px solid #313b54;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.editMenu {
+  background: #fff;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.editAndDeleteButtonStyle {
+  background: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: #111622;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  border-radius: none;
+}
+
+.editAndDeleteButtonStyle:hover {
+  background-color: salmon;
+  color: white;
+}
+
+.editAndDeleteButtonStyle:focus {
+  background-color: sandybrown;
+  color: white;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.tableRowDane {
+  background-color: none;
+  color: white; /* Фон для рядків */
+}
+
+.tableRowDane:nth-child(even) {
+  background-color: #2b2d3c; /* Фон для парних рядків */
+}
+
+.tableRowDane:nth-child(odd) {
+  background-color: none;
+}
+
+.tableRowDane:hover {
+  background-color: #afc8ff;
+  color: black; /* Фон при наведенні */
+}
+
+.tableHeaderDane {
+  background-color: #2b2d3c; /* Фон для заголовків */
+  color: white; /* Колір тексту заголовків */
+}
+
+.TabTitle {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #0c0f17;
+  border-radius: 30px;
+  margin: 6px;
+  font-size: 20px;
+  color: white;
+  border: 2px solid #2a2a3e;
+}
+.tab:hover {
+  background-color: #243dae;
+}
+.tab[aria-selected="true"] {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}

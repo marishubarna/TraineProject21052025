@@ -1,0 +1,25 @@
+.BreadcrumbsDisplay {
+  display: flex;
+  justify-content: left;
+  gap: 3px;
+}
+
+.itemOfBreadcrumbs > a,
+.Breadcrumbs {
+  color: #e5e7eb;
+  background: none;
+  font-size: 18px;
+  border: none;
+}
+
+.itemOfBreadcrumbs:focus > a {
+  color: #3b82f6;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.itemOfBreadcrumbs:hover > a {
+  color: #3574da;
+  font-size: 20px;
+  cursor: pointer;
+}
