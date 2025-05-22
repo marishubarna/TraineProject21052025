@@ -93,15 +93,19 @@
 } */
 
 .fade-in-dark-zoom {
-  opacity: 0;
-  transform: scale(0.95);
-  animation: fadeInDarkZoom 0.8s ease-out forwards;
+  animation: fadeInDarkZoom 0.5s;
 }
 
 @keyframes fadeInDarkZoom {
-  to {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+    filter: brightness(0.7);
+  }
+  100% {
     opacity: 1;
     transform: scale(1);
+    filter: brightness(1);
   }
 }
 

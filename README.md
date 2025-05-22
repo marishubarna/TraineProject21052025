@@ -10,3 +10,10 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Мій код зроблений на React - Vite
+Ui-бібліотеки: Tailwind, MaterialUI, і так далі..
+Анімації: frame-motion , і код css
+мій код складається з двох частин DashBoard і AccountBoard усе згідно під дизайн тестового завдання а також власна ініціатива
+з реєстрацією до AccountBoard а також анімації.
+адаптивний дизан - відсутні

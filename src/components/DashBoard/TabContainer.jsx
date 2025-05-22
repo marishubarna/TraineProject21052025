@@ -12,10 +12,10 @@ import MyAccount from "../DashBoard/MyAccounts";
 import Sidebar from "../Accounts/Sidebar";
 import ComponentBreadcrumbs from "../Accounts/ComponentBreadcrumbs";
 import Performance from "../Accounts/PerformanceMetrics";
-import CommunicationCard from "./../Accounts/CommunicationCard";
-import CircleAnimation from "../Animation/CircleAnimation";
+// import CommunicationCard from "./../Accounts/CommunicationCard";
 import LoginToAccount from "../Accounts/LoginToAccount";
 import styled from "styled-components";
+import CircleAnimation from "../Animation/CircleAnimation";
 
 const StyledWrapper = styled.div`
   display: flex;
@@ -140,7 +140,7 @@ const TabContainer = () => {
               <>
                 <ComponentBreadcrumbs activeKey={activeKey} />
                 {accountData ? (
-                  <div className="account-info">
+                  <div className="account-info fade-in-dark-zoom">
                     <div className="">
                       <img
                         src={
